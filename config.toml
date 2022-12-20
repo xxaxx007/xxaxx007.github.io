@@ -25,9 +25,9 @@ enableEmoji = true
 [params.footer]
     enable = true
     hugo = true
+    bsz = true
     copyright = true
     since = 2022
-    bsz = true
 [params.section]
     lastUpdatedSize = 5
     paginate = 10
