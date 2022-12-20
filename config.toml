@@ -79,6 +79,7 @@ enableEmoji = true
     ruby = true
     python = true
     fraction = true
+    fontawesome = true
     linkToMarkdown = true
     rssFullText = false
     [params.page.toc]
@@ -127,6 +128,7 @@ enableEmoji = true
     cursorChar = "|"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
     duration = -1
+    loop = true
 
 [markup]
     [markup.highlight]
