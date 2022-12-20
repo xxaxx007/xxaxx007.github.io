@@ -1,0 +1,264 @@
+baseurl = "https://xxaxx007.github.io"
+# title = "xxaxx007 的日常"
+theme = "LoveIt"
+
+[Author]
+    name = "xxaxx007"
+    email = "xxaxx1210@yandex.com"
+    link = "xxaxx007.github.io"
+
+enableGitInfo = true
+enableEmoji = true
+[params]
+    defaultTheme = "auto"
+    dateFormat = "2006-01-02"
+    title = "xxaxx007 的日常"
+    description = "记录日常点滴美好"
+    images = ["/log.png"]
+    gitRepo = "https://github.com/xxaxx007/xxaxx007.github.io"
+[params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+        name = "Hi there \U0001F44B  \n Welcome to my blog"
+        typeit = true
+[params.footer]
+    enable = true
+    hugo = true
+    copyright = true
+    since = 2022
+    bsz = true
+[params.section]
+    lastUpdatedSize = 5
+    paginate = 10
+    dateFormat = "01-02"
+    rss = 5
+[params.list]
+    paginate = 7
+    dateFormat = "01-02"
+    rss = 5
+[params.search]
+    enable = true
+    type = "lunr"
+    contentLength = 4000
+    placeholder = "please input something"
+    # max number of results length
+    # 最大结果数目
+    maxResultLength = 10
+    # snippet length of the result
+    # 结果内容片段长度
+    snippetLength = 30
+    # HTML tag name of the highlight part in results
+    # 搜索结果中高亮部分的 HTML 标签
+    highlightTag = "em"
+    # whether to use the absolute URL based on the baseURL in search index
+    # 是否在搜索索引中使用基于 baseURL 的绝对路径
+    absoluteURL = false
+    
+[params.home]
+    rss = 5
+    [params.home.profile]
+        enable = true
+        # gravatarEmail = "xxaxx1210@yandex.com"
+        avatarURL = "/images/avatar.png"
+        title = ""
+        subtitle = "爱珎宝，爱生活"
+        typeit = true
+    [params.home.posts]
+        enable = true
+        paginate = 5
+        defaultHiddenFromHomePage = false
+[params.social]
+    GitHub = "xxaxx007"
+    RSS = true
+[params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    hack-font = true
+    twemoji = false 
+    lightgallery = true
+    ruby = true
+    python = true
+    fraction = true
+    linkToMarkdown = true
+    rssFullText = false
+    [params.page.toc]
+        enable = true
+        keepStatic = false
+        auto = true
+[params.page.code]
+    copy = true
+    maxShownLines = 10
+[params.page.math]
+    enable = true
+    inlineLeftDelimiter = ""
+    inlineRightDelimiter = ""
+    blockLeftDelimiter = ""
+    blockRightDelimiter = ""
+    copyTex = true
+    mhchem = true
+[params.page.share]
+    enable = false
+[params.page.bsz]
+    enable = true
+[params.page.comment]
+    enable = true
+    [params.page.comment.giscus]
+        enable = true
+        repo="xxaxx007/xxaxx007.github.io"
+        repoId="R_kgDOIo18fg"
+        category="Announcements"
+        categoryId="DIC_kwDOIo18fs4CTJZS"
+        mapping="pathname"
+        strict="0"
+        reactions-enabled="1"
+        emit-metadata="0"
+        input-position="bottom"
+        theme="transparent_dark"
+        lang="zh-CN"
+        origin="anonymous"
+[params.cdn]
+    data = "jsdelivr.yml"
+[params.typeit]
+    # typing speed between each step (measured in milliseconds)
+    speed = 100
+    # blinking speed of the cursor (measured in milliseconds)
+    cursorSpeed = 1000
+    # character used for the cursor (HTML format is supported)
+    cursorChar = "|"
+    # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+    duration = -1
+
+[markup]
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        lineNos = true
+        lineNumbersInTable = true        
+        noClasses = false  
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            strikethrough = true
+            table = true
+            taskList = true
+            typographer = true
+        [markup.goldmark.renderer]
+            # whether to use HTML tags directly in the document
+            # 是否在文档中直接使用 HTML 标签
+            unsafe = true
+    # Table Of Contents settings    
+    [markup.tableOfContents]
+        startLevel = 1
+        ordered = false
+        endLevel = 4
+        
+[sitemap]
+    changefreq = "weekly"
+    filename = "sitemap.xml"
+    priority = 0.5
+[Permalinks]
+    # posts = ":year/:month/:filename"
+    posts = ":filename"
+[mediaTypes]
+    [mediaTypes."text/plain"]
+        suffixes = ["md"]
+[outputFormats.MarkDown]
+    mediaType = "text/plain"
+    isPlainText = true
+    isHTML = false
+    charset = "utf-8"
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    page = ["HTML", "MarkDown"]
+    section = ["HTML", "RSS"]
+    taxonomy = ["HTML", "RSS"]
+    taxonomyTerm = ["HTML"]
+
+defaultContentLanguage = "zh-cn"
+[languages]
+    [languages.zh-cn]
+        weight = 1
+        languageCode = "zh-cn"
+        languageName = "简体中文"
+        hasCJKLanguage = true
+        paginate = 7
+    [[languages.zh-cn.menu.main]]
+        weight = 1
+        identifier = "Posts"
+        name = "文章"
+        url = "/posts/"
+        post = ""
+        pre = ""
+        title = "所有文章"
+
+    [[languages.zh-cn.menu.main]]
+        weight = 2
+        identifier = "Blog"
+        name = "blog"
+        url = "/blog/"
+        title = ""   
+        post = ""
+        pre = ""    
+
+    # [[languages.zh-cn.menu.main]]
+    #    identifier = "post"
+    #    name = "post"
+    #    url = "/post/"
+    #    weight = 3 
+    #    title = "归档"  
+
+    [[languages.zh-cn.menu.main]]
+        identifier = "Categories"
+        name = "categories"
+        url = "/categories/"
+        weight = 4
+        title = "分类"
+      
+    [[languages.zh-cn.menu.main]]
+        identifier = "Tags"
+        name = "tags"
+        url = "/tags/"
+        weight = 5
+        title = "标签"
+    [languages.en]
+        weight = 2
+        title = "xxaxx007 dailylife"
+        languageCode = "en"
+        languageName = "English"
+        hasCJKLanguage = true
+        paginate = 7
+    [[languages.en.menu.main]]
+        weight = 1
+        identifier = "Posts"        
+        name = "posts"
+        url = "posts"
+        title = ""
+    [[languages.en.menu.main]]
+        weight = 2
+        identifier = "Blog"
+        name = "blog"
+        url = "/blog/"
+        title = ""
+    # [[languages.en.menu.main]]
+    #    identifier = "post"
+    #    name = "post"
+    #    url = "/post/"
+    #    weight = 3 
+    #    title = ""         
+    #    pre = ""
+    #    post = ""        
+    [[languages.en.menu.main]]
+        identifier = "Categories"
+        name = "categories"
+        url = "/categories/"
+        weight = 4        
+        title = ""
+    [[languages.en.menu.main]]
+        identifier = "Tags"
+        name = "tags"
+        url = "/tags/"
+        weight = 5
+        title = ""
