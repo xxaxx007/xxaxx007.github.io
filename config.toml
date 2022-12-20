@@ -98,7 +98,7 @@ enableEmoji = true
     copyTex = true
     mhchem = true
 [params.page.share]
-    enable = false
+    enable = true
 [params.page.bsz]
     enable = true
 [params.page.comment]
