@@ -1,5 +1,5 @@
 ---
-title: "_Index"
+title: "categories"
 subtitle: ""
 author: ""
 date: 2022-12-19T21:52:09+08:00

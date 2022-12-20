@@ -128,7 +128,6 @@ enableEmoji = true
     cursorChar = "|"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
     duration = -1
-    loop = true
 
 [markup]
     [markup.highlight]
@@ -213,17 +212,17 @@ defaultContentLanguage = "zh-cn"
 
     [[languages.zh-cn.menu.main]]
         identifier = "Categories"
-        name = "categories"
+        name = "分类"
         url = "/categories/"
         weight = 4
         title = "分类"
       
     [[languages.zh-cn.menu.main]]
         identifier = "Tags"
-        name = "tags"
+        name = "标签"
         url = "/tags/"
         weight = 5
-        title = "标签"
+        title = "所有标签"
     [languages.en]
         weight = 2
         title = "xxaxx007 dailylife"

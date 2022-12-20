@@ -1,9 +1,9 @@
 ---
-title: "分类"
+title: "Induct"
 subtitle: ""
 author: ""
-date: 2022-12-19T21:52:01+08:00
-lastmod: 2022-12-19T21:52:01+08:00
+date: 2022-12-20T20:57:03+08:00
+lastmod: 2022-12-20T20:57:03+08:00
 draft: false
 description: ""
 images: []
