@@ -19,8 +19,8 @@ twemoji: false
 
 * git init
 * git config
-* git clone 
-* git add 
+* git clone
+* git add
 * git comment -m ""
 * git pull
 * git push
@@ -28,6 +28,9 @@ twemoji: false
 * git branch
 * git checkout
 * git set --soft
+* git rm -r --cached :删除远程文件夹
+* 
+
 #### `vim`
 
 * 上下左右后移动：`kjhlb` ,同时可以用数字快速移动：`3j` 表示向下移动三行
@@ -37,11 +40,12 @@ twemoji: false
 * 从当前复制到结尾：`yG`
 * 从当前到结尾复制：`y$`
 * 分别快速跳转到行首、尾快捷键：`H`、`L`
+
 #### `docker`
 
 * docker images：查看镜像
 * docker pull
 * docker ps -a ：查看进程
-* docker stop 
+* docker stop
 * docker rmi :删除镜像
-* docker rm $(docker ps -a -q)：删除容器 
+* docker rm $(docker ps -a -q)：删除容器
