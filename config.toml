@@ -120,7 +120,7 @@ enableEmoji = true
         reactions-enabled="1"
         emit-metadata="0"
         input-position="bottom"
-        theme="light_high_contrast"
+        theme="dark_dimmed"
         lang="zh-CN"
         origin="anonymous"
 [params.cdn]
