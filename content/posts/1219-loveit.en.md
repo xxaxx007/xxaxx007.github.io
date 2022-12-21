@@ -19,10 +19,12 @@ twemoji: false
 
 1. 这是行内公式：
 
-    $x^2 + y^2 + z^2 = \frac{e^{xy}}{3\pi}$
+   $x^2 + y^2 + z^2 = \frac{e^{xy}}{3\pi}$
 2. 段落公式：
-   
-   $$\cos^3x + 2\cos2x\sin3x = \sin^3x$$
+
+   $$
+   \cos^3x + 2\cos2x\sin3x = \sin^3x
+   $$
 
 #### 二、`Emoji` 表情
 
@@ -44,10 +46,9 @@ twemoji: false
 
 1. 支持 music 和 b 站 相关资源在线播放
 2. 支持摘要功能
-    {{< admonition info >}}
-        一个 **信息** 横幅
-    {{< /admonition >}}
+   {{< admonition info >}}
+   一个 **信息** 横幅
+   {{< /admonition >}}
 3. 支持打字机模式 `typeit`
 4. 支持语法高亮
 5. 支持CDN实现快速渲染
-   
