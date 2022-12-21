@@ -16,7 +16,7 @@ password: 123xxaxx321
 ---
 {{< music auto="https://music.163.com/#/playlist?id=60198" loop="auto">}}
 
-### 实现功能
+* [X] 实现功能
 
 #### **基本功能使用说明**
 
@@ -69,3 +69,4 @@ hugo new posts/new.zh-cn.md
 3. 支持打字机模式 `typeit`
 4. 支持语法高亮
 5. 支持CDN实现快速渲染
+6. 统计浏览量

@@ -20,7 +20,7 @@ enableEmoji = true
     desktopMode = "fixed"
     mobileMode = "auto"
     [params.header.title]
-        name = "Hi there \U0001F44B  \n Welcome to my blog"
+        name = "Hi there \U0001F44B Welcome to my blog"
         typeit = true
 [params.footer]
     enable = true
