@@ -166,8 +166,8 @@ enableEmoji = true
     filename = "sitemap.xml"
     priority = 0.5
 [Permalinks]
-    posts = ":year/:month/:filename"
-    # posts = ":filename"
+    # posts = ":year/:month/:filename"
+    posts = ":filename"
 [frontmatter]
     lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
 [mediaTypes]
