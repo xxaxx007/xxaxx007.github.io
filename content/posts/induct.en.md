@@ -57,13 +57,10 @@ twemoji: false
  ![avatar](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@master/images/avatar.png)
   
 * 自定义名字
-![new-name](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@master/images/new-name.png)
+![new-name](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/new-name.png)
 
 * 快捷键使用
   `ctrl + Alt + u` 、`ctrl + Alt + e` 和 `ctrl + Alt + o`
 
 * 启用 CDN 加速
-  
-  ![new-avatar](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@master/images/new-avatar.png)
-
-  ![avatar-1227](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/avatar-1227.png)
+  ![avatar-1227](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@master/images/avatar-1227.png)
