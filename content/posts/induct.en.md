@@ -65,3 +65,5 @@ twemoji: false
 * 启用 CDN 加速
   
   ![new-avatar](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@master/images/new-avatar.png)
+
+  ![avatar-1227](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/avatar-1227.png)
