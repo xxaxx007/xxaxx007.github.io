@@ -59,7 +59,7 @@ enableEmoji = true
     [params.home.profile]
         enable = true
         # gravatarEmail = "xxaxx1210@yandex.com"
-        avatarURL = "/images/avatar.png"
+        avatarURL = "https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/avatar.png"
         title = ""
         subtitle = "爱珎宝，爱生活"
         typeit = true

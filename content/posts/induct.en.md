@@ -54,10 +54,10 @@ twemoji: false
 #### 搭建 `markdown` 图床
 
 * 测试结果如下：
-  ![20221221194638](https://raw.githubusercontent.com/xxaxx007/xxaxx007.github.io/main/assets/images/20221221194638.png)
+ ![avatar](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/avatar.png) 
   
 * 自定义名字
-  ![test](https://raw.githubusercontent.com/xxaxx007/xxaxx007.github.io/main/assets/images/test.png)
+  ![custom-name](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/custom-name.png)
 * 快捷键使用
   `ctrl + Alt + u` 、`ctrl + Alt + e` 和 `ctrl + Alt + o`
 ![test](https://raw.githubusercontent.com/xxaxx007/mkImg/main/images/test.jpg)
