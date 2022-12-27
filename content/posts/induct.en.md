@@ -58,11 +58,9 @@ twemoji: false
   
 * 自定义名字
   ![custom-name](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/custom-name.png)
+
 * 快捷键使用
   `ctrl + Alt + u` 、`ctrl + Alt + e` 和 `ctrl + Alt + o`
 ![test](https://raw.githubusercontent.com/xxaxx007/mkImg/main/images/test.jpg)
 * 启用 CDN 加速
- ![cdn](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@latest/images/cdn.png) 
-![new](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg//images/new.png)
-![20221221](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@main/images/20221221.png)
-![final](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/final.jpg)
+ ![1227](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@main/images/1227.png)
