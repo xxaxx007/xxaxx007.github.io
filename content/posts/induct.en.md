@@ -54,13 +54,14 @@ twemoji: false
 #### 搭建 `markdown` 图床
 
 * 测试结果如下：
- ![avatar](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/avatar.png) 
+ ![avatar](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@master/images/avatar.png)
   
 * 自定义名字
-  ![custom-name](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/custom-name.png)
+![new-name](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@master/images/new-name.png)
 
 * 快捷键使用
   `ctrl + Alt + u` 、`ctrl + Alt + e` 和 `ctrl + Alt + o`
-![test](https://raw.githubusercontent.com/xxaxx007/mkImg/main/images/test.jpg)
+
 * 启用 CDN 加速
- ![1227](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@main/images/1227.png)
+  
+  ![new-avatar](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg@master/images/new-avatar.png)
