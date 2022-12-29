@@ -1,5 +1,5 @@
 baseurl = "https://xxaxx007.github.io"
-# title = "xxaxx007 的日常"
+title = "xxaxx007 的日常"
 theme = "LoveIt"
 
 [Author]
@@ -125,6 +125,7 @@ enableEmoji = true
         origin="anonymous"
 [params.cdn]
     data = "jsdelivr.yml"
+
 [params.typeit]
     # typing speed between each step (measured in milliseconds)
     speed = 100
