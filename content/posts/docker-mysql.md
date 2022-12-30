@@ -27,10 +27,11 @@ twemoji: true
 * 切换数据库：`use databasesname;`
 * 设置远程访问权限：`ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'mysqlroot';` 和 `grant all privileges on *.* to 'xxaxx'@'%' with grant option;`
 * 查看 `ip` ，选择 `navicat` 成功实现远程连接访问：
-
-  ![1672409683896](image/docker-mysql/1672409683896.png)
+          
+            ![1672410747865](../../assets/images/1672410747865.png)
 
   采用 cdn 加速之后的截图如下：
+
   ![1672409683896](https://cdn.jsdelivr.net/gh/xxaxx007/mkImg/images/1672409683896.png)
 
 #### 工作小结
