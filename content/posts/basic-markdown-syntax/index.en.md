@@ -17,7 +17,6 @@ categories: ["Markdown"]
 
 lightgallery: true
 ---
-
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
 
 <!--more-->
@@ -91,6 +90,7 @@ The HTML looks like this:
 ```html
 <h3 id="custom-id">A Great Heading</h3>
 ```
+
 {{< /admonition >}}
 
 ## 2 Comments
@@ -120,9 +120,11 @@ In Markdown, you can create a `<hr>` with any of the following:
 
 The rendered output looks like this:
 
-___
 ---
-***
+
+---
+
+---
 
 ## 4 Body Copy
 
@@ -278,9 +280,11 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 The rendered output looks like this:
 
 > Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
-Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+> Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+>
 >> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
-odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+>> odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+>>
 
 ## 8 Lists
 
@@ -408,14 +412,14 @@ If you just use `1.` for each number, Markdown will automatically number each it
 The rendered output looks like this:
 
 1. Lorem ipsum dolor sit amet
-1. Consectetur adipiscing elit
-1. Integer molestie lorem at massa
-1. Facilisis in pretium nisl aliquet
-1. Nulla volutpat aliquam velit
-1. Faucibus porta lacus fringilla vel
-1. Aenean sit amet erat nunc
-1. Eget porttitor lorem
-{{< /admonition >}}
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+4. Facilisis in pretium nisl aliquet
+5. Nulla volutpat aliquam velit
+6. Faucibus porta lacus fringilla vel
+7. Aenean sit amet erat nunc
+8. Eget porttitor lorem
+   {{< /admonition >}}
 
 ### Task Lists
 
@@ -429,7 +433,7 @@ Task lists allow you to create a list of items with checkboxes. To create a task
 
 The rendered output looks like this:
 
-- [x] Write the press release
+- [X] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 
@@ -437,7 +441,7 @@ The rendered output looks like this:
 
 ### Inline Code
 
-Wrap inline snippets of code with <code>`</code>.
+Wrap inline snippets of code with `<code>```</code>`.
 
 ```markdown
 In this example, `<section></section>` should be wrapped as **code**.
@@ -451,7 +455,7 @@ The HTML looks like this:
 
 ```html
 <p>
-  In this example, <code>&lt;section&gt;&lt;/section&gt;</code> should be wrapped with <strong>code</strong>.
+  In this example, <code><section></section></code> should be wrapped with <strong>code</strong>.
 </p>
 ```
 
@@ -488,12 +492,14 @@ The HTML looks like this:
 
 ### Block Fenced Code
 
-Use "fences" <code>```</code> to block in multiple lines of code with a language attribute.
+Use "fences" `<code>`````</code>` to block in multiple lines of code with a language attribute.
 
 {{< highlight markdown >}}
+
 ```markdown
 Sample text here...
 ```
+
 {{< / highlight >}}
 
 The HTML looks like this:
@@ -509,11 +515,12 @@ The HTML looks like this:
 [GFM]^(GitHub Flavored Markdown) also supports syntax highlighting.
 
 To activate it, simply add the file extension of the language you want to use directly after the first code "fence",
-<code>```js</code>, and syntax highlighting will automatically be applied in the rendered HTML.
+`<code>````js`</code>`, and syntax highlighting will automatically be applied in the rendered HTML.
 
 For example, to apply syntax highlighting to JavaScript code:
 
 {{< highlight markdown >}}
+
 ```js
 grunt.initConfig({
   assemble: {
@@ -534,6 +541,7 @@ grunt.initConfig({
   }
 };
 ```
+
 {{< / highlight >}}
 
 The rendered output looks like this:
@@ -577,11 +585,11 @@ Tables are created by adding pipes as dividers between each cell, and by adding 
 
 The rendered output looks like this:
 
-| Option | Description |
-| ------ | ----------- |
+| Option | Description                                                               |
+| ------ | ------------------------------------------------------------------------- |
 | data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| engine | engine to be used for processing templates. Handlebars is the default.    |
+| ext    | extension to be used for dest files.                                      |
 
 The HTML looks like this:
 
@@ -625,14 +633,14 @@ Adding colons on both sides of the dashes below any heading will center align te
 
 The rendered output looks like this:
 
-| Option | Description |
-|:------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-{{< /admonition >}}
+|       Option       |                                                               Description |
+| :-----------------: | ------------------------------------------------------------------------: |
+|        data        | path to data files to supply the data that will be passed into templates. |
+|       engine       |    engine to be used for processing templates. Handlebars is the default. |
+|         ext         |                                      extension to be used for dest files. |
+| {{< /admonition >}} |                                                                           |
 
-## 11 Links {#links}
+## 11 Links
 
 ### Basic Link
 
@@ -644,9 +652,9 @@ The rendered output looks like this:
 
 The rendered output looks like this (hover over the link, there is no tooltip):
 
-<https://assemble.io>
+[https://assemble.io](https://assemble.io)
 
-<contact@revolunet.com>
+[contact@revolunet.com](mailto:contact@revolunet.com)
 
 [Assemble](https://assemble.io)
 
@@ -723,8 +731,9 @@ This is a digital footnote[^1].
 This is a footnote with "label"[^label]
 
 [^1]: This is a digital footnote
+    
 [^label]: This is a footnote with "label"
-
+    
 ## 13 Images
 
 Images have a similar syntax to links but include a preceding exclamation point.
@@ -757,8 +766,7 @@ With a reference later in the document defining the URL location:
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 ```
 
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
+[id]: https://octodex.github.com/images/dojocat.jpg
 {{< admonition tip >}}
 **LoveIt** theme has [special shortcode for image](../theme-documentation-extended-shortcodes#image), which provides more features.
 {{< /admonition >}}

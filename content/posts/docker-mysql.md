@@ -27,8 +27,12 @@ twemoji: true
 * 切换数据库：`use databasesname;`
 * 设置远程访问权限：`ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'mysqlroot';` 和 `grant all privileges on *.* to 'xxaxx'@'%' with grant option;`
 * 查看 `ip` ，选择 `navicat` 成功实现远程连接访问：
-          
-            ![1672410747865](../../assets/images/1672410747865.png)
+  
+  本地：
+  ![1672411623136](image/1672411623136.png)
+
+  `assets/images`:
+  ![1672410747865](images/1672410747865.png)
 
   采用 cdn 加速之后的截图如下：
 
